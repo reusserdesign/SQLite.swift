@@ -1060,7 +1060,7 @@ public struct Row {
 
     let columnNames: [String: Int]
 
-    fileprivate let values: [Binding?]
+    let values: [Binding?]
 
     init(_ columnNames: [String: Int], _ values: [Binding?]) {
         self.columnNames = columnNames
